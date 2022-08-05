@@ -64,18 +64,11 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    const promptUser = './output';
-    if((fs.existsSync(promptUser)) !== true) {
-        fs.mkdirSync(promptUser);
-    }
-    userInput().then(data => {
-        writeToFile(promptUser + "/README.md", generateMarkdown(data));
+    inquirer.prompt(questions).then((userAnswers) => {
+        const data = generateMarkdown(userAnswers);
+        console.log(userAnswers);
+        writeToFile('README.md', data);
     })
-  };
-
-function userInput() {
-    return inquirer.prompt(questions);
-  };
-
+}
 // Function call to initialize app
 init();
