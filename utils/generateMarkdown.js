@@ -64,17 +64,16 @@ function generateMarkdown(data) {
   return `# ${data.name}
 
   ## Table of contents
-
-  ##Descripton
-  ${data.description}
-
-- [Description](#description)
+  - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contribute)
 - [Tests](#tests)
 - [Questions](#questions)
+
+  ##Descripton
+  ${data.description}
   
   ##Installation
   ${data.installation}
