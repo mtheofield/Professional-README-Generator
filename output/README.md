@@ -1,33 +1,35 @@
-# Mary 
+# Readme generator 
+  [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)(https://opendatacommons.org/licenses/odbl/)
 
   ## Table of contents
-  - [Description](#description)
+-[Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contribute)
+- [Contribute](#contribute)
 - [Tests](#tests)
 - [Questions](#questions)
 
-  ##Descripton
-  I created this as a project
+  ## Descripton
+  to get answers
   
-  ##Installation
-  a user needs to  use inquire to install applicatiion then follow the prompts 
+  ## Installation
+  n/a
 
-  ##Usage 
-  use inqurie website to install 
-  undefined
+  ## Usage 
+  n/a
+  ## License
+The project has ODbl license. The link for this can be found here: [ODbl](https://opendatacommons.org/licenses/odbl/)
 
-  ##Contributing 
-  None
+  ## Contribute 
+  n/a
   
-  ##Tests
-  in the terminal
+  ## Tests
+  n/a
 
   ## Questions
 
   If there are any questions about this project project, contact me at
-  [$GitHub: [undefined](https://github.com/undefined)
+  [$GitHub: [mtheofield](https://github.com/mtheofield)
   Email: [mptheofield@gmail.com](mailto:mptheofield@gmail.com)
   

@@ -45,7 +45,7 @@ const questions = [
     }, 
     {
       type: 'input',
-      name: 'github',
+      name: 'username',
       message: 'Add your github so users can ask questions',
     },
     {

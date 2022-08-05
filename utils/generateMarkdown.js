@@ -29,8 +29,12 @@ function renderLicenseBadge(license) {
 function renderLicenseSection(license) {
   if (license == "") {
     return "";
-  };
+} else {
+  return `## License
+The project has ${license} license. The link for this can be found here: [${license}]${renderLicenseLink(license)}`;
+};
 }
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -60,32 +64,33 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log("In generate Markdown function")
+
   return `# ${data.name}
+  ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
   ## Table of contents
-  - [Description](#description)
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contribute)
+- [Contribute](#contribute)
 - [Tests](#tests)
 - [Questions](#questions)
 
-  ##Descripton
+  ## Descripton
   ${data.description}
   
-  ##Installation
+  ## Installation
   ${data.installation}
 
-  ##Usage 
+  ## Usage 
   ${data.usage}
   ${renderLicenseSection(data.license)}
 
-  ##Contributing 
+  ## Contribute 
   ${data.contribute}
   
-  ##Tests
+  ## Tests
   ${data.tests}
 
   ## Questions
@@ -94,7 +99,7 @@ function generateMarkdown(data) {
   [$GitHub: [${data.username}](https://github.com/${data.username})
   Email: [${data.email}](mailto:${data.email})
   `;
-  }
+  };
 
   module.exports = generateMarkdown;
 
