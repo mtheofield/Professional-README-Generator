@@ -4,40 +4,63 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
 
 
-const promptUser = async () => {
-    let data = await inquirer.prompt([
-        {
-            type: 'input',
-            name: 'name',
-            message: 'What is your name?'
-        },
-        {
-            type: 'list',
-            name: 'license',
-            message: 'What is your license type?',
-            choices: ["No Licence", "MIT"]
-        }
-    ]);
-    console.log(data)
-
-    fs.writeFile('./READMe.md', generateMarkdown(data), err => {
-        if (err) throw err;
-    
-        console.log('Portfolio complete! Check out index.html to see the output!');
-    });
-};
-
-
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {
+      type: 'input',
+      name: 'name',
+      message: 'What is your projects name?',
+    },
+    {
+      type: 'input',
+      name: 'description',
+      message: 'Describe your project and why you choose to create it',
+    },
+    {
+      type: 'input',
+      name: 'installation',
+      message: 'How can a user install this application?',
+    },
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'Please include instructions for the usage of the project',
+    },
+    {
+      type: 'list',
+      message: 'Choose a license for the application',
+      name: 'license',
+      choices: ['None', 'MPL', 'ODbl', 'GPL', 'MIT', 'ISC'],
+    },
+    {
+    type: 'input',
+    name: 'contribute',
+    message: 'List all collaborators and links to their GitHub Profile',
+    },
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'How can a user test the application?',
+    }, 
+    {
+      type: 'input',
+      name: 'github',
+      message: 'Add your github so users can ask questions',
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Please enter your email address.',
+    },
+];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+// function writeToFile(fileName, data) { }
 
 // TODO: Create a function to initialize app
-function init() { 
-    promptUser()
-}
+// function init() 
+//     promptUser()
+// }
 
 // Function call to initialize app
-init();
+// init();
