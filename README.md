@@ -1,5 +1,5 @@
 # Professional README Generator 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Table of contents
 - [Description](#description)
@@ -18,9 +18,9 @@
   A user will need to clone this git repository and initiate with node index inquirer in the integrated terminal. You will need to use npm install.
 
 ## Usage 
-   This allows a user to quickly generate a README by using a command-line application to generate the file.  Inquirer package is used for this project. To ensure the README generates properly please answer all of the prompt questions.  
+   This allows a user to quickly generate a README by using a command-line application to generate the file.  Inquirer package is used for this project. To ensure the README generates properly please answer all of the prompt questions.  A demo for this can be found here [click here] (https://drive.google.com/file/d/1aq6SQUe2NKGSUqBB5wN4S-a7erWA6ZG7/view)
   ## License
-The project has MIT license. The link for this can be found here: [MIT](https://opensource.org/licenses/MIT)
+The project has MPL license. The link for this can be found here: [MPL](https://opensource.org/licenses/MPL-2.0)
 
 ## Contribute 
   There were no other collaborators for this project. 
