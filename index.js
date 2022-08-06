@@ -15,8 +15,13 @@ const questions = [
     {
       type: 'input',
       name: 'description',
-      message: 'Describe your project and why you choose to create it',
+      message: 'Describe what your project is and why you choose to create it',
     },
+    {
+        type: 'input',
+        name: 'learned',
+        message: 'What did you learn from creating this project? ',
+      },
     {
       type: 'input',
       name: 'installation',
@@ -46,7 +51,7 @@ const questions = [
     {
       type: 'input',
       name: 'username',
-      message: 'Add your github so users can ask questions',
+      message: 'Please add github username so that users can ask questions',
     },
     {
       type: 'input',

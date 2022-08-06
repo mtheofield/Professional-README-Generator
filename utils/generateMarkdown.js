@@ -66,9 +66,9 @@ function renderLicenseLink(license) {
 function generateMarkdown(data) {
 
   return `# ${data.name}
-  ${renderLicenseBadge(data.license)} ${renderLicenseLink(data.license)}
+  ${renderLicenseBadge(data.license)} 
 
-  ## Table of contents
+## Table of contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -77,23 +77,24 @@ function generateMarkdown(data) {
 - [Tests](#tests)
 - [Questions](#questions)
 
-  ## Descripton
-  ${data.description}
+## Descripton
+  - ${data.description}
+  - ${data.learned}
   
-  ## Installation
+## Installation
   ${data.installation}
 
-  ## Usage 
+## Usage 
   ${data.usage}
   ${renderLicenseSection(data.license)}
 
-  ## Contribute 
+## Contribute 
   ${data.contribute}
   
-  ## Tests
+## Tests
   ${data.tests}
 
-  ## Questions
+## Questions
 
   If there are any questions about this project project, contact me at
   [$GitHub: [${data.username}](https://github.com/${data.username})

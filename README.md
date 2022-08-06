@@ -1,7 +1,7 @@
 # mary
-  [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/) 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] 
 
-  ## Table of contents
+## Table of contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,26 +10,27 @@
 - [Tests](#tests)
 - [Questions](#questions)
 
-  ## Descripton
-  fsd
+## Descripton
+  - 
+  - test
   
-  ## Installation
-  fsd
+## Installation
+  test
 
-  ## Usage 
-  fds
+## Usage 
+  test
   ## License
-The project has ODbl license. The link for this can be found here: [ODbl](https://opendatacommons.org/licenses/odbl/)
+The project has MIT license. The link for this can be found here: [MIT](https://opensource.org/licenses/MIT)
 
-  ## Contribute 
-  fsd
+## Contribute 
+  test
   
-  ## Tests
-  fds
+## Tests
+  test
 
-  ## Questions
+## Questions
 
   If there are any questions about this project project, contact me at
-  [$GitHub: [fds](https://github.com/fds)
-  Email: [fsd](mailto:fsd)
+  [$GitHub: [tes](https://github.com/tes)
+  Email: [test](mailto:test)
   
