@@ -1,5 +1,5 @@
-# Mary 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)] 
+# test
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)] (https://opensource.org/licenses/MPL-2.0)
 
 ## Table of contents
 - [Description](#description)
@@ -11,26 +11,26 @@
 - [Questions](#questions)
 
 ## Descripton
-  - To allow a user to quickly create a professional README for a new project
-  -  This project taught me how to use inquirer, node js and licenses
+  - test
+  - test
   
 ## Installation
-  A user will need to clone this git repository and initiate with node index inquirer in the integrated terminal. You will need to use npm install.
+  estrsef
 
 ## Usage 
-  This allows a user to quickly generate a README by using a command-line application to generate the file.  Inquirer package is used for this project. To ensure the README generates properly please answer all of the prompt questions.  
+  test
   ## License
-The project has GPL license. The link for this can be found here: [GPL](http://www.gnu.org/licenses/gpl-3.0)
+The project has MPL license. The link for this can be found here: [MPL](https://opensource.org/licenses/MPL-2.0)
 
 ## Contribute 
-  There were no other collaborators for this project. 
+  test
   
 ## Tests
-  There are no tests for this application.
+  test
 
 ## Questions
 
   If there are any questions about this project project, contact me at
-  [$GitHub: [Mtheofield](https://github.com/Mtheofield)
-  Email: [mptheofield@gmail.com](mailto:mptheofield@gmail.com)
+  [$GitHub: [test](https://github.com/test)
+  Email: [test](mailto:test)
   

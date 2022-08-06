@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   const input = license;
   switch(input) {
     case 'MPL':
-      response = '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]';
+      response = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]';
       return response;
     case 'ODbl':
       response = '[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)]';
@@ -66,7 +66,7 @@ function renderLicenseLink(license) {
 function generateMarkdown(data) {
 
   return `# ${data.name}
-  ${renderLicenseBadge(data.license)} 
+  ${renderLicenseBadge(data.license)} ${renderLicenseLink(data.license)}
 
 ## Table of contents
 - [Description](#description)
