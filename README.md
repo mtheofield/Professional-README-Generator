@@ -1,5 +1,5 @@
-# test
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)] (https://opensource.org/licenses/MPL-2.0)
+# tester
+  [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)
 
 ## Table of contents
 - [Description](#description)
@@ -11,16 +11,16 @@
 - [Questions](#questions)
 
 ## Descripton
-  - test
-  - test
+  - tester
+  - teast
   
 ## Installation
-  estrsef
+  test
 
 ## Usage 
-  test
+  etsetr
   ## License
-The project has MPL license. The link for this can be found here: [MPL](https://opensource.org/licenses/MPL-2.0)
+The project has ODbl license. The link for this can be found here: [ODbl](https://opendatacommons.org/licenses/odbl/)
 
 ## Contribute 
   test
@@ -31,6 +31,6 @@ The project has MPL license. The link for this can be found here: [MPL](https://
 ## Questions
 
   If there are any questions about this project project, contact me at
-  [$GitHub: [test](https://github.com/test)
+  [$GitHub: [](https://github.com/)
   Email: [test](mailto:test)
   
