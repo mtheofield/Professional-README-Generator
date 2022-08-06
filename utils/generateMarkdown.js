@@ -4,19 +4,19 @@ function renderLicenseBadge(license) {
   const input = license;
   switch(input) {
     case 'MPL':
-      response = '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)(https://opensource.org/licenses/MPL-2.0)';
+      response = '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]';
       return response;
     case 'ODbl':
-      response = '[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)';
+      response = '[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)]';
       return response;
     case 'GPL':
-      response = '[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)';
+      response = '[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)]';
       return response;
       case 'MIT':
         response = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
         return response;
       case 'ISC':
-        response = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]";
+        response = '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]';
         return response;
     case 'None':
       response = "";
