@@ -1,5 +1,5 @@
-# mary
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] 
+# Mary 
+  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)(https://opensource.org/licenses/MPL-2.0) 
 
 ## Table of contents
 - [Description](#description)
@@ -11,7 +11,7 @@
 - [Questions](#questions)
 
 ## Descripton
-  - 
+  - test
   - test
   
 ## Installation
@@ -20,7 +20,7 @@
 ## Usage 
   test
   ## License
-The project has MIT license. The link for this can be found here: [MIT](https://opensource.org/licenses/MIT)
+The project has MPL license. The link for this can be found here: [MPL](https://opensource.org/licenses/MPL-2.0)
 
 ## Contribute 
   test
@@ -31,6 +31,6 @@ The project has MIT license. The link for this can be found here: [MIT](https://
 ## Questions
 
   If there are any questions about this project project, contact me at
-  [$GitHub: [tes](https://github.com/tes)
+  [$GitHub: [test](https://github.com/test)
   Email: [test](mailto:test)
   
