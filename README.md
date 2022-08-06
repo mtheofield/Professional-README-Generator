@@ -1,5 +1,5 @@
-# tester
-  [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)
+# Professional README Generator 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of contents
 - [Description](#description)
@@ -11,26 +11,26 @@
 - [Questions](#questions)
 
 ## Descripton
-  - tester
-  - teast
+  - To allow a user to quickly create a professional README for a new project
+  -  This project taught me how to use inquirer, node js and licenses
   
 ## Installation
-  test
+  A user will need to clone this git repository and initiate with node index inquirer in the integrated terminal. You will need to use npm install.
 
 ## Usage 
-  etsetr
+   This allows a user to quickly generate a README by using a command-line application to generate the file.  Inquirer package is used for this project. To ensure the README generates properly please answer all of the prompt questions.  
   ## License
-The project has ODbl license. The link for this can be found here: [ODbl](https://opendatacommons.org/licenses/odbl/)
+The project has MIT license. The link for this can be found here: [MIT](https://opensource.org/licenses/MIT)
 
 ## Contribute 
-  test
+  There were no other collaborators for this project. 
   
 ## Tests
-  test
+  There are no tests for this application.
 
 ## Questions
 
   If there are any questions about this project project, contact me at
-  [$GitHub: [](https://github.com/)
-  Email: [test](mailto:test)
+  [$GitHub: [Mtheofield](https://github.com/Mtheofield)
+  Email: [mptheofield@gmail.com](mailto:mptheofield@gmail.com)
   
