@@ -18,7 +18,14 @@
   A user will need to clone this git repository and initiate with node index inquirer in the integrated terminal. You will need to use npm install.
 
 ## Usage 
-   This allows a user to quickly generate a README by using a command-line application to generate the file.  Inquirer package is used for this project. To ensure the README generates properly please answer all of the prompt questions.  A demo for this can be found here [click here] (https://drive.google.com/file/d/1aq6SQUe2NKGSUqBB5wN4S-a7erWA6ZG7/view)
+   This allows a user to quickly generate a README by using a command-line application to generate the file.  Inquirer package is used for this project. To ensure the README generates properly please answer all of the prompt questions. 
+
+   Example of the integrated terminal
+   ![Image of integrated terminal](assets/images/professionalreadme.png)
+
+  Example of completed README
+   ![Image of completed README](assets/images/githubprofessionalreadme.png)
+    A demo for this can be found here (https://drive.google.com/file/d/1aq6SQUe2NKGSUqBB5wN4S-a7erWA6ZG7/view)
   ## License
 The project has MPL license. The link for this can be found here: [MPL](https://opensource.org/licenses/MPL-2.0)
 
